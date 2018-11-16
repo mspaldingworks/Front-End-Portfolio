@@ -2,40 +2,43 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="main.js">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Welcome To My Portfolio</title>
 </head>
 
-<body background="bg.png">
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
-      </div>
-      <ul class="menu-nav">
-        <li class="nav-item current">
+<body id="bg-img">
+
+<!-- nav bar begin-->
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+       </span>
+       <a href="#" class="logo">logo</a>
+      <ul class="main-nav" id="js-menu">
+        <li>
           <a href="index.html" class="nav-link">
             Home
           </a>
         </li>
-        <li class="nav-item">
+        <li>
           <a href="about.html" class="nav-link">
             About Me
           </a>
         </li>
-        <li class="nav-item">
+        <li>
           <a href="work.html" class="nav-link">
             My Work
           </a>
         </li>
-        <li class="nav-item">
+        <li>
           <a href="contact.html" class="nav-link">
-            How To
-            <span class="text-secondary">Reach Me</span>
+            How To Reach Me
           </a>
         </li>
       </ul>
     </nav>
-  </div>
 
   <main id="home">
     <div class="hero-image"> </div>
@@ -47,6 +50,9 @@
     <h2 class="sm-heading">
       Artist, Curator, Exhibit Designer & Entrepreneur
     </h2>
+
+<!-- icons-->
+
     <div class="icons">
       <a href="https://twitter.com/">
         <i class="fab fa-twitter fa-2x"></i>
