@@ -18,6 +18,9 @@ The class(es) I created are:
 2. .btn, .btn-dark, .btn-light
 Creates buttons (dark, light) on project page as link for further images and info
 
+3. .boxes
+sets hover feature that transforms box in contact to yellow upon hover
+
 ```
 
 
